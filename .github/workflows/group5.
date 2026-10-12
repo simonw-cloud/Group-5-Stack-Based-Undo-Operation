@@ -1,3 +1,28 @@
+### Exercise 8:  Stack-Based Undo Operation
+
+Create a simple text editor simulation.
+
+Each time the user enters text, store the previous state in a stack.
+
+For example:
+
+```text
+Enter: Hello
+Enter: Hello World
+Enter: Hello World!
+```
+When the user selects Undo, restore the previous text.
+
+Implement:
+```text
+write(text)
+undo()
+current_text()
+```
+
+
+solution:
+
 undo_stack = []
 text_state = ""
 
