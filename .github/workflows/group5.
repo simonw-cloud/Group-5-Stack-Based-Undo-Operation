@@ -53,3 +53,8 @@ print(current_text())
 
 undo()
 print(current_text())
+
+the code runs. this is the output:
+Hello World!
+Hello World
+Hello
